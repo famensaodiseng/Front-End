@@ -8,10 +8,9 @@
 如有部分资料侵权，请及时联系我，本资料仅供大家学习参考使用！欢迎大家Star和提交issues。
 
 ```
-[前端书籍开发推荐](https://github.com/famensaodiseng/Front-End/edit/master/README.md)   
-
-[前端笔记版本第一部]()   
-[前端笔记版本第二部]()
+NO.1  [前端书籍开发推荐](https://github.com/famensaodiseng/Front-End/edit/master/README.md)   
+NO.2  [前端笔记版本第一部]()   
+NO.3  [前端笔记版本第二部]()
 
 # 前端开发书籍推荐
 

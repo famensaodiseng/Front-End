@@ -9,8 +9,8 @@
 
 ```
 NO.1  [前端书籍开发推荐](https://github.com/famensaodiseng/Front-End/edit/master/README.md)   
-NO.2  [前端笔记版本第一部]()   
-NO.3  [前端笔记版本第二部]()
+NO.2  [前端笔记版本第一部](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E6%B4%97%E5%89%AA%E5%90%B9%E7%AC%94%E8%AE%B0.md)   
+NO.3  [前端笔记版本第二部](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93.md)
 
 # 前端开发书籍推荐
 

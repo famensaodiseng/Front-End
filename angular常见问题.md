@@ -9,85 +9,85 @@
 ```
 NO.1  [前端书籍开发推荐](https://github.com/famensaodiseng/Front-End/edit/master/README.md)   
 NO.2  [前端面试宝典第一版]()   
-NO.3  [前端笔记版本第二版]()
+NO.3  [前端笔记版本第二版]()   
 NO.4  [前端笔记版本第三版]()   
   
 
 
-# 1、angularjs的几大特性是什么？
+## 1、angularjs的几大特性是什么？
 
 双向数据绑定、依赖注入、模板、指令、MVC/MVVM
 
-# 2、列举几种常见的设计模式，写出没个代表的含义？
+## 2、列举几种常见的设计模式，写出没个代表的含义？
 
 MVC ：model view controller
 MVVM ：model view viewModel
 
-# 3、请描述angularjs的运行过程？
+## 3、请描述angularjs的运行过程？
 
 angularjs编译所有的HTML元素标签，然后在里面查找angular程序的入口 ng-app 每个元素上的指令是把所有指令收集起来根据优先级依次编译
 
-# 4、ng-bind和ng-model的区别是什么？
+## 4、ng-bind和ng-model的区别是什么？
 
 ng-bind只能展示数据 ng-model可以操作数据
 
-# 5、请描述$scope的特点还有其最大的父类？
+## 5、请描述$scope的特点还有其最大的父类？
 
 随创建作用域创建的一个变量，就代表controller所代表的作用域，其持有的对象和方法可在当前及其子作用域生效
 
-# 6、原生js的延迟或回调在angularjs里能完美运行吗？怎么解决？可以用例子？
+## 6、原生js的延迟或回调在angularjs里能完美运行吗？怎么解决？可以用例子？
 
 不能 需要用$apply来进行传播
 
-# 7、{{ array | filter:{‘age’:23}:true }} 这个过滤里的true是什么意思？
+## 7、{{ array | filter:{‘age’:23}:true }} 这个过滤里的true是什么意思？
 
 是否用angular.equals进行比较后为真才返回
-
-# 8、自定义过滤创建后返回的是一个什么对象？
+ 
+## 8、自定义过滤创建后返回的是一个什么对象？
 
 返回一个函数对象 并且函数内要返回最后返回的对象
 
-# 9、ng-repeat循环[1,3,2,4,3,4]数组会报错吗？如果会怎么解决？
+## 9、ng-repeat循环[1,3,2,4,3,4]数组会报错吗？如果会怎么解决？
 
 会因为有重复的内容 track by $index
 
-# 10、angular常用的服务中value和constant最大的区别是什么？
+## 10、angular常用的服务中value和constant最大的区别是什么？
 
 constant的创建要早于value 并且其可以在config配置中使用 value不行
 
-# 11、常用服务中factory和service的最大区别是什么？
+## 11、常用服务中factory和service的最大区别是什么？
 
 factory返回的对象当我们使用它的时候手动初始化并返回，而service是当我们第一次使用的时候angular帮我们初始化一次，然后以后使用的时候返回的都是这个对象，factory创建的服务是代表的是其后面函数的返回值，这个返回值可以是任意类型，service不用返回，直接操作的就是自己
 
-# 12、怎么拦截服务？
+## 12、怎么拦截服务？
 
 在config配置里注入需要拦截的服务的名字+Provider来拦截
-
-# 13、decorator的作用是什么？和拦截服务的区别是什么？
+ 
+## 13、decorator的作用是什么？和拦截服务的区别是什么？
 
 装饰器不仅可以应用在我们自己的服务上，也可以对angularjs核心服务进行拦截、中断甚至替换功能的操作，事实上angularjs的很多测试就是借助$provide.decorator()建立的、请写一个配置路由的代码段（只需要写怎么声明一个路由和其常用属性的代码段）
 
-# 14、resolve的作用是什么？
+## 14、resolve的作用是什么？
 
 如果设置了resolve属性，angularjs会将列表中的元素都注入到控制器中，列表对象可以是键(键值是会被注入到控制器中依赖的名字)，也可以是工厂(即可以是一个服务的名字)
 
-# 15、ngRoute默认查找的路由是什么？$routeProvider.otherwise(’/index’)是什么作用？
+## 15、ngRoute默认查找的路由是什么？$routeProvider.otherwise(’/index’)是什么作用？
 
 是/ 设置路由的意外指向到/index
 
-# 16、$location.path(‘/home’)和$location.url(‘/home’)都可以进行路由跳转，但是.path方法和.url方法最大的区别是什么？
+## 16、$location.path(‘/home’)和$location.url(‘/home’)都可以进行路由跳转，但是.path方法和.url方法最大的区别是什么？
 
 .url方法：可以在跳转的同时设置查询串，返回url的整个路径； 而.path方法：返回的路径不包括？后面的部分；
 
-# 17、什么是跨域，请简要描述跨域的场景？
+## 17、什么是跨域，请简要描述跨域的场景？
 
 协议 域名 端口号有一个不一样就是跨域，也就是不同域名之间的访问；
 
-# 18、常使用的跨域方案就哪两种？分别描述其利用的原理？
+## 18、常使用的跨域方案就哪两种？分别描述其利用的原理？
 
 jsonp; post请求设置请求头 ； jsonp利用的是script可以访问外部信息的原理发送请求并且利用jsonp协议进行数据交互 post设置请求头跳过预请求来实现跨域
 
-# 19、请写出$http网络请求的几种写法，最少两种
+## 19、请写出$http网络请求的几种写法，最少两种
 
 $http.**(url).success(function(data){}).error(function(error){}) $http({ method:’**’, url:url }).success(function(data){
 }).error(function(error){
@@ -100,7 +100,7 @@ var promise = $http({ method:’get’, url:url }); promise.then(function(data){
 }); promise.error(function(error){
 });
 
-# 20、ng-if 跟 ng-show/hide 的区别有哪些？
+## 20、ng-if 跟 ng-show/hide 的区别有哪些？
 
 第一点区别是，ng-if
 在后面表达式为 true 的时候才创建这个 dom 节点，ng-show
@@ -190,11 +190,11 @@ filter 有两种使用方法，一种是直接在页面里：
 另一种是在 js 里面用：
 // $filter('过滤器名称')(需要过滤的对象, 参数1, 参数2,...)$filter('date')(now, 'yyyy-MM-dd hh:mm:ss');
 
-# 24、自定义 filter
+## 24、自定义 filter
 
 // 形式app.filter('过滤器名称',function(){ return function(需要过滤的对象,过滤器参数1,过滤器参数2,...){ //...做一些事情 return 处理后的对象; }}); // 栗子app.filter('timesFilter', function(){ return function(item, times){ var result = ''; for(var i = 0; i < times; i++){ result += item; } return result; }})
 
-# 25、factory、service 和 provider 是什么关系？
+## 25、factory、service 和 provider 是什么关系？
 
 ## factory
 
@@ -232,7 +232,7 @@ click 时会产生一次更新的操作（至少触发两次 $digest
 
 浏览器接收到一个事件，进入到 angular context
 
-# 26、$digest
+## 26、$digest
 
 循环开始执行，查询每个 $watch
 是否变化
@@ -281,7 +281,7 @@ modules 下最好再有一个 common 目录来存放公共的东西。
 在复杂的应用中，也可以为实体建立对应的构造函数，比如硬盘（Disk）模块，可能有列表、新建、详情这样几个视图，并分别对应的有 controller，那么可以建一个 Disk 构造函数，里面完成数据的增删改查和验证操作，有跟 Disk 相关的 controller，就注入 Disk 构造器并生成一个实例，这个实例就具备了增删改查和验证方法。这样既层次分明，又实现了复用（让 controller 层更薄了）。
 参考 [AngularJS在苏宁云中心的深入实践](http://www.csdn.net/article/2015-08-24/2825527)
 
-# 27、angular 应用常用哪些路由库，各自的区别是什么？
+## 27、angular 应用常用哪些路由库，各自的区别是什么？
 
 Angular1.x 中常用 ngRoute 和 ui.router，还有一种为 Angular2 设计的 [new router](https://angular.github.io/router/)（面向组件）。后面那个没在实际项目中用过，就不讲了。
 无论是 ngRoute 还是 ui.router，作为框架额外的附加功能，都必须以 模块依赖 的形式被引入。
@@ -303,7 +303,7 @@ var app = angular.module('ngRouteApp', ['ngRoute']);app.config(function($routePr
 ui.router
 var app = angular.module("uiRouteApp", ["ui.router"]);app.config(function($urlRouterProvider, $stateProvider){ $urlRouterProvider.otherwise("/index"); $stateProvider .state("Main", { url: "/main", templateUrl: "main.html", controller: 'MainCtrl' })
 
-# 28、如果通过angular的directive规划一套全组件化体系，可能遇到哪些挑战？
+## 28、如果通过angular的directive规划一套全组件化体系，可能遇到哪些挑战？
 
 没有自己用 directive 做过一全套组件，讲不出。
 能想到的一点是，组件如何与外界进行数据的交互，以及如何通过简单的配置就能使用吧。
@@ -406,14 +406,14 @@ myApp.controller('myCtrl', ['$scope', '$http', function($scope, $http){ ...}])
 显式 $inject
 myApp.controller('myCtrl', myCtrl);function myCtrl = ($scope, $http){ ...}myCtrl.$inject = ['$scope', '$http'];
 
-# 29、补充
+## 29、补充
 
 对于一个 DI 容器，必须具备三个要素：依赖项的注册，依赖关系的声明和对象的获取。
 在 AngularJS 中，module 和 $provide 都可以提供依赖项的注册；内置的 injector 可以获取对象（自动完成依赖注入）；依赖关系的声明，就是前面问题中提到的那样。
 下面是个栗子
 // 对于 module，传递参数不止一个，代表新建模块，空数组代表不依赖其他模块// 只有一个参数（模块名），代表获取模块// 定义 myApp，添加 myApp.services 为其依赖项angular.module('myApp', ['myApp.services']);// 定义一个 services module，将 services 都注册在这个 module 下面angular.module('myApp.services', [])// $provider 有 factory, service, provider, value, constant// 定义一个 HttpServiceangular.module('myApp.services').service('HttpService', ['$http', function($http){ ...}])
 
-# 30、如何看待angular2
+## 30、如何看待angular2
 
 相比 Angular1.x，Angular2的改动很大，几乎算是一个全新的框架。
 基于 TypeScript（可以使用 TypeScript 进行开发），在大型项目团队协作时，强语言类型更有利。

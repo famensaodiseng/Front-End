@@ -5,7 +5,7 @@
 
 ```
 本仓库是我整理的一些常见的前端书籍以及网址，部分资料也参考了别人总结的网址，感谢！   
-如有部分资料侵权，请及时联系我，本资料仅供大家学习参考使用！欢迎大家Star和提交issues
+如有部分资料侵权，请及时联系我，本资料仅供大家学习参考使用！欢迎大家Star和提交issues。
 ```
 NO.1  [前端书籍开发推荐](https://github.com/famensaodiseng/Front-End/edit/master/README.md)   
 NO.2  [前端面试宝典第一版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%B8%80%E7%89%88.md)   

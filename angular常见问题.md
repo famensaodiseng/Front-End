@@ -8,10 +8,11 @@
 如有部分资料侵权，请及时联系我，本资料仅供大家学习参考使用！欢迎大家Star和提交issues。
 ```
 NO.1  [前端书籍开发推荐](https://github.com/famensaodiseng/Front-End/edit/master/README.md)   
-NO.2  [前端面试宝典第一版]()   
-NO.3  [前端笔记版本第二版]()   
-NO.4  [前端笔记版本第三版]()   
-  
+NO.2  [前端面试宝典第一版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%B8%80%E7%89%88.md)   
+NO.3  [前端笔记版本第二版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%BA%8C%E7%89%88.md)   
+NO.4  [前端笔记版本第三版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%B8%89%E7%89%88.md)  
+NO.5  [angular常见问题](https://github.com/famensaodiseng/Front-End/blob/master/angular%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md)   
+NO.6  [简历经验分享](https://github.com/famensaodiseng/Front-End/blob/master/%E7%AE%80%E5%8E%86%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md) 
 
 
 ### 1、angularjs的几大特性是什么？

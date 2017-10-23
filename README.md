@@ -16,7 +16,7 @@ NO.6  [简历经验分享](https://github.com/famensaodiseng/Front-End/blob/mas
 
 # 前端开发书籍推荐
 
-## <a name='web'>前端学习书籍以及网站推荐</a>
+## <a name='web'>前端学习书籍以及网站推荐！</a>
 
 1. [w3school](http://www.w3school.com.cn/ " w3school")
 2. [菜鸟教程](http://www.runoob.com/)

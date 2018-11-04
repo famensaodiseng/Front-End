@@ -18,7 +18,7 @@ NO.6  [前端笔记版本第三版](https://github.com/famensaodiseng/Front-End/
 NO.7[前端笔记版本第四版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E5%9B%9B%E7%89%88.md) 	       	
 
 
-# 欢迎大家一起交流提高
+## 欢迎大家一起交流提高
 
 
 
@@ -27,10 +27,10 @@ NO.7[前端笔记版本第四版](https://github.com/famensaodiseng/Front-End/bl
 
 ```
 根据自己需求选择性阅读，前端的路上我们一起携手共进！
-个人收藏有不少关于前端开发的书籍以及资料，如有需要，请通过邮箱索要！
 ```
 
 ​	
+[MIT](https://github.com/famensaodiseng/Front-End/blob/master/LICENSE)        
 ©[杨方涛](https://github.com/famensaodiseng)   		
 
 Email:58267980@qq.com

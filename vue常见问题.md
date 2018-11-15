@@ -11,11 +11,11 @@
 本资料仅供大家学习参考使用！
 ```
 
-NO.1 	[README](https://github.com/famensaodiseng/Front-End/edit/master/README.md)				
-NO.2 	[前端面试宝典第一版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%B8%80%E7%89%88.md)				
-NO.3  	[前端笔记版本第二版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%BA%8C%E7%89%88.md)			
-NO.4       [前端笔记版本第三版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%B8%89%E7%89%88.md)			
-NO.5	[前端笔记版本第四版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E5%9B%9B%E7%89%88.md) 	 			
+NO.1 	[README](https://github.com/famensaodiseng/Front-End/edit/master/README.md)      
+NO.2 	[前端面试宝典第一版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%B8%80%E7%89%88.md)       
+NO.3  	[前端笔记版本第二版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%BA%8C%E7%89%88.md)     
+NO.4       [前端笔记版本第三版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E4%B8%89%E7%89%88.md)	    
+NO.5	[前端笔记版本第四版](https://github.com/famensaodiseng/Front-End/blob/master/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E5%AE%9D%E5%85%B8%E7%AC%AC%E5%9B%9B%E7%89%88.md)    
 NO.6 	[vue常见问题](https://github.com/famensaodiseng/Front-End/blob/master/vue%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md)   
 NO.7 	[react常见问题](https://github.com/famensaodiseng/Front-End/blob/master/react%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md)    
 NO.8  	[angular常见问题](https://github.com/famensaodiseng/Front-End/blob/master/angular%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98.md)   
@@ -415,7 +415,7 @@ vue框架中状态管理。在main.js引入store，注入。新建了一个目�
 答：首先，组件可以提升整个项目的开发效率。能够把页面抽象成多个相对独立的模块，解决了我们传统项目开发：**效率低**、**难维护**、**复用性**等问题。
 
 然后，使用Vue.extend方法创建一个组件，然后使用Vue.component方法注册组件。子组件需要数据，可以在props中接受定义。而子组件修改好数据后，想把数据传递给父组件。可以采用emit方法。
-  
+
 
 ### 你是怎么认识vuex的？
 
@@ -427,7 +427,7 @@ vue框架中状态管理。在main.js引入store，注入。新建了一个目�
 ### 请说出vue.cli项目中src目录每个文件夹和文件的用法？
 
 答：assets文件夹是放静态资源；components是放组件；router是定义路由相关的配置;view视图；app.vue是一个应用主组件；main.js是入口文件
-  
+
 
 ### vue.cli中怎样使用自定义的组件？有遇到过哪些问题吗？
 
@@ -439,7 +439,7 @@ vue框架中状态管理。在main.js引入store，注入。新建了一个目�
 
 第四步：在template视图view中使用，<smith-button>  </smith-button>
  问题有：smithButton命名，使用的时候则smith-button。
-  
+
 
 ### 聊聊你对Vue.js的template编译的理解？
 
